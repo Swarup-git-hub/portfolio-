@@ -80,7 +80,7 @@ button {
     transition: color 0.3s, text-decoration 0.3s;
     animation: fadeIn 3s ease-in-out;
     box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.5);
-    
+
 }
 
 button:hover {
@@ -296,7 +296,6 @@ button:active {
         opacity: 1;
         scale: 1;
     }
-
 }
 
 .img1 {
@@ -669,7 +668,6 @@ h1 {
     padding: 0% 3%;
     width: auto;
     /* border: 1px solid red; */
-
 }
 
 .form-group {
@@ -767,13 +765,19 @@ input[type="radio"]:checked {
     height: 3vh;
 }
 
+/* footer section */
 footer {
     width: 100%;
-    height: 30vh;
+    height: auto;
     justify-items: center;
     background-color: #100E09;
     animation: fadeIn 3s ease-in-out;
     box-shadow: 0 0 10px rgba(129, 205, 253, 0.5);
+}
+
+.socials {
+    display: flex;
+    /* display: none; */
 }
 
 footer a {
@@ -788,15 +792,28 @@ footer a:hover {
     transition: 0.5s ease;
 }
 
+.foot span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .connects {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .connects img {
     width: 30px;
+    margin: 0;
 }
 
 .connects a {
+
     width: 50px;
 }
 
@@ -912,7 +929,6 @@ footer a:hover {
         height: auto;
         padding-top: 35%;
         padding-bottom: 5%;
-
     }
 
     .main-skill h1 {
@@ -1135,7 +1151,7 @@ footer a:hover {
     .about {
         height: auto;
         align-items: center;
-        padding-top: 55%;
+        padding-top: 50%;
         animation: none;
     }
 
@@ -1147,13 +1163,13 @@ footer a:hover {
     }
 
     .abt span {
-        font-size: 55px;
+        font-size: 50px;
         margin: 5% 0%;
-
     }
 
     .abt p {
-        font-size: 15px;
+        font-size: 12px;
+        text-align: center;
     }
 
     /* Skills Section */
