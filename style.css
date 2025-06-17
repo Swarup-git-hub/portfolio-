@@ -80,7 +80,7 @@ button {
     transition: color 0.3s, text-decoration 0.3s;
     animation: fadeIn 3s ease-in-out;
     box-shadow: 3px 3px 15px rgba(255, 255, 255, 0.5);
-
+    
 }
 
 button:hover {
@@ -90,8 +90,8 @@ button:hover {
     border-radius: 10 10 10px 10px;
     color: var(--text-color);
     background-color: var(--background-color);
-    box-shadow: 0px 0px 15px rgba(225, 255, 255, 0.5);
-    transform: translateY(2px);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+    transform: translateY(-2px);
     transition: 0.2s ease;
 }
 
@@ -1099,7 +1099,7 @@ footer a:hover {
         /* Creates a perfect circle */
         margin-bottom: 25px;
         overflow: hidden;
-        box-shadow: 3px 20px 20px aliceblue;
+        box-shadow: 3px 10px 20px aliceblue;
     }
 
     .img1:active {
